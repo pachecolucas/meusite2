@@ -11,6 +11,8 @@
     function mais() {
       const p = document.querySelector("p");
       p.innerText = parseInt(p.innerText) + 1;
+      if (parseInt(p.innerText) > 10) parseInt(p.innerText);
+      p.innerText = 10;
     }
   </script>
 </body>
