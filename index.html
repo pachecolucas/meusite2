@@ -1,1 +1,9 @@
-Meu primeiro site!
+<h1>Contador</h1>
+<p>0</p>
+<button onclick="mais()">Mais</button>
+<script>
+  function mais() {
+    const p = document.querySelector("p");
+    p.innerText = parseInt(p.innerText) + 1;
+  }
+</script>
